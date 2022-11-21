@@ -23,10 +23,10 @@ ragjanje, ke se presmeta kolku godini e i da se odredi dali e maloleten ili poln
 x=int(input('vnesi godina na ragjanje '))
 y=2022-x 
 
-if y>=18 and y<110 and y>=0:
+if y>=18 and y<110 :
     print('korisnikot ima {} godini, i e polnoleten.'.format(y))
 
-elif y<18 and y<110 and y>=40:
+elif y<18 and y<110 :
     print('korisnikot ima {} godini, i e maloleten.'.format(y))
 else:
     print('vnesovte nerealen podatok.')
